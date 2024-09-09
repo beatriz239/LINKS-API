@@ -1,0 +1,24 @@
+body{
+    background-color:  rgb(166, 204, 235);
+}
+input{
+    border-radius: 8px;
+    border-color: rgb(38, 137, 213);
+}
+.caixa{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="tempo.css">
+</head>
+<body>
+    <div class="titulo">
+    <h1>Previsão do tempo</h1>
+</div>
+    <p><div class="texto">Digite o nome da cidade</p></div>
+    <div class="info"><input type="text" id="city"></div>
+   <br>
+    <div class="botao"><button onclick="getWeather()"> Pesquisar </button></div>
+    <div class="aguarde"><p id="temperatura">Aguarde...</p></div>
+
+    <script src="tempo.js"></script>
+</body>
+</html>
